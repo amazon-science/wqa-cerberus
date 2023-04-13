@@ -31,7 +31,7 @@ and tested under the following conditions:
 This CERBERUS model consists of 11 shared encoder body layers and 3 ranking heads of 1 head layer each 
 learned from 3 teacher AS2 models: ALBERT-XXLarge, ELECTRA-Large, and RoBERTa-Large fine-tuned on the ASNQ dataset.
 
-Download and unzip [`cerberus11-3_albert_electra_roberta_asnq.zip`]()
+Download and unzip [cerberus11-3_albert_electra_roberta_asnq.zip](https://github.com/amazon-science/wqa-cerberus/releases/download/v1.0.0/cerberus11-3_albert_electra_roberta_asnq.zip)
 
 ```python
 from transformers import AutoTokenizer
@@ -55,7 +55,7 @@ This CERBERUS model consists of 11 shared encoder body layers and 3 ranking head
 learned from 3 teacher AS2 models: ALBERT-XXLarge, ELECTRA-Large, and RoBERTa-Large fine-tuned on the ASNQ dataset 
 and then on the WikiQA dataset.
 
-Download and unzip [`cerberus11-3_albert_electra_roberta_asnq_wikiqa.zip`]() besides the checkpoint for ASNQ dataset.
+Download and unzip [cerberus11-3_albert_electra_roberta_asnq_wikiqa.zip](https://github.com/amazon-science/wqa-cerberus/releases/download/v1.0.0/cerberus11-3_albert_electra_roberta_asnq_wikiqa.zip) and [asnq-electra-base-discriminator](https://github.com/amazon-science/wqa-cerberus/releases/download/v1.0.0/asnq-electra-base-discriminator.zip).
 
 
 ```python
